@@ -55,6 +55,6 @@ app.post('/deslogar', function(req, res) {
   res.json({deslogado: true})
 })
 
-app.listen(3000, function() {
+app.listen(3001, function() {
   console.log('App de Exemplo escutando na porta 3000!')
 });
